@@ -18,4 +18,4 @@ ds = Dataset.File.upload_directory(src_dir='./zipfile/',
            target=DataPath(datastore,  'UI'),
            show_progress=True)
 ds = ds.register(workspace = ws, name = 'test2_secondfile',
-                description = 'new upload zip ', create_new_version = True)
+                description = 'new upload zip from pipeline ', create_new_version = True)
